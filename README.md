@@ -10,7 +10,8 @@ Visualizations: Automated performance charts and graphs
 Breaking Point Detection: Identifies when standard methods fail due to OOM
 
 Key Results
-MetricFindingMemory Reduction2.5-3.7x less memory usageSpeed Impact15-30% slower during trainingScale Enablement2-3x larger vocabularies possibleCost Impact60-80% reduction in GPU costs
+MetricFindingMemory Reduction2.5-3.7x less memory usageSpeed Impact15-30% slower during trainingScale Enablement2-3x larger vocabularies possibleCost Impact: 60-80% reduction in GPU costs
+
 Requirements
 bashtorch>=1.9.0
 psutil>=5.8.0
@@ -22,7 +23,7 @@ cd memory-efficient-logits-stress-test
 pip install -r requirements.txt
 Usage
 bashpython stress_test_memory_efficient_logits.py
-S
+
 ========================================
 
 
