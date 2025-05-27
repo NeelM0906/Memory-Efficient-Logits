@@ -1,5 +1,5 @@
 # Memory-Efficient-Logits
-A benchmarking tool for testing memory-efficient logits computation against standard implementations with faithful forward+backward pass measurements.
+A benchmarking tool for testing memory-efficient logits computation against standard implementations with forward+backward pass measurements.
 
 **Features:**
 
