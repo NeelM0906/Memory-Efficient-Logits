@@ -18,7 +18,7 @@ Breaking Point Detection: Identifies when standard methods fail due to OOM
 **Key Results:**
 Memory Reduction: 2.5-3.7x less memory usage. 
 
-Speed Impact: 5-15% slower during training. 
+Speed Impact: 15% slower during training. 
 
 Scale Enablement: 2-3x larger vocabularies possible.
 
