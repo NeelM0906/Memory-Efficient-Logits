@@ -1,6 +1,7 @@
 # Memory-Efficient-Logits
 A benchmarking tool for testing memory-efficient logits computation against standard implementations with faithful forward+backward pass measurements.
-Features
+
+**Features:**
 
 Memory-Efficient Implementation: Custom autograd function with chunked processing
 Faithful Benchmarking: Complete forward+backward pass measurement
@@ -9,23 +10,21 @@ Performance Analysis: Detailed timing and speedup analysis
 Visualizations: Automated performance charts and graphs
 Breaking Point Detection: Identifies when standard methods fail due to OOM
 
-Key Results
+**Key Results:**
 MetricFindingMemory Reduction2.5-3.7x less memory usageSpeed Impact15-30% slower during trainingScale Enablement2-3x larger vocabularies possibleCost Impact: 60-80% reduction in GPU costs
 
 
-Installation: 
-bashgit clone https://github.com/yourusername/memory-efficient-logits-stress-test.git
+**Installation:** 
 
-cd memory-efficient-logits-stress-test
+**bashgit clone https://github.com/yourusername/memory-efficient-logits-stress-test.git**
 
-pip install -r requirements.txt
+**cd memory-efficient-logits-stress-test**
 
-Usage:
+**pip install -r requirements.txt**
 
-bashpython stress_test_memory_efficient_logits.py
+**Usage:**
 
-========================================
-
+**bash python stress_test_memory_efficient_logits.py**
 
 
 Performance Tradeoff
@@ -34,7 +33,7 @@ Memory-efficient approach uses 60-75% less memory
 Training is 5-15% slower due to chunked processing
 Enables training with much larger vocabularies on same hardware
 
-When to Use:
+**When to Use:**
 
 Use Memory-Efficient Approach:
 
@@ -49,7 +48,7 @@ Inference serving where latency is critical
 Small vocabulary models (<50K tokens)
 Abundant GPU memory available
 
-Configuration
+**Configuration**
 Modify test parameters in the script:
 python# Vocabulary sizes to test
 vocab_sizes = [10_000, 25_000, 50_000, 75_000, 100_000]
