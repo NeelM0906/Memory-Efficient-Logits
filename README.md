@@ -4,10 +4,15 @@ A benchmarking tool for testing memory-efficient logits computation against stan
 **Features:**
 
 Memory-Efficient Implementation: Custom autograd function with chunked processing
-Faithful Benchmarking: Complete forward+backward pass measurement
+
+Benchmarking: Complete forward+backward pass measurement
+
 GPU Memory Tracking: Accurate total and additional memory usage
+
 Performance Analysis: Detailed timing and speedup analysis
+
 Visualizations: Automated performance charts and graphs
+
 Breaking Point Detection: Identifies when standard methods fail due to OOM
 
 **Key Results:**
