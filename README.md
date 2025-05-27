@@ -40,9 +40,7 @@ Cost Impact: 60-80% reduction in GPU costs.
 
 **Performance Tradeoff:**
 
-Memory-efficient approach uses 60-75% less memory
-
-Training is 5-15% slower due to chunked processing
+Memory-efficient approach uses 60-80% less memory
 
 Enables training with much larger vocabularies on same hardware
 
