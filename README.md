@@ -16,7 +16,7 @@ MetricFindingMemory Reduction: 2.5-3.7x less memory usageSpeed Impact: 15-30% sl
 
 **Installation:** 
 
-**bash git clone https://github.com/yourusername/memory-efficient-logits-stress-test.git**
+**bash git clone https://github.com/NeelM0906/memory-efficient-logits-stress-test.git**
 
 **cd memory-efficient-logits-stress-test**
 
