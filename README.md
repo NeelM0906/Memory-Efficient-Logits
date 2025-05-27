@@ -72,7 +72,7 @@ CUDA Out of Memory: Reduce batch size or vocabulary size
 Slow performance: Normal for large vocabularies due to chunked processing
 Visualization errors: Install matplotlib: pip install matplotlib
 
-License
-MIT License - see LICENSE file for details.
+**License:**
+MIT License 
 Contributing
 Contributions welcome! Please feel free to submit issues and pull requests.
