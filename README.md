@@ -38,10 +38,12 @@ Cost Impact: 60-80% reduction in GPU costs.
 **bash python stress_test_memory_efficient_logits.py**
 
 
-Performance Tradeoff
+**Performance Tradeoff:**
 
 Memory-efficient approach uses 60-75% less memory
+
 Training is 5-15% slower due to chunked processing
+
 Enables training with much larger vocabularies on same hardware
 
 **When to Use:**
@@ -49,14 +51,19 @@ Enables training with much larger vocabularies on same hardware
 Use Memory-Efficient Approach:
 
 Large vocabulary models (>100K tokens)
+
 GPU memory constrained environments
+
 Training phases where cost matters more than speed
+
 Multi-language models with massive vocabularies
 
 Use Standard Approach:
 
 Inference serving where latency is critical
+
 Small vocabulary models (<50K tokens)
+
 Abundant GPU memory available
 
 **Configuration**
