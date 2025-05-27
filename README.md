@@ -16,7 +16,13 @@ Visualizations: Automated performance charts and graphs
 Breaking Point Detection: Identifies when standard methods fail due to OOM
 
 **Key Results:**
-MetricFindingMemory Reduction: 2.5-3.7x less memory usage. Speed Impact: 5-15% slower during training. Scale Enablement: 2-3x larger vocabularies possibleCost Impact: 60-80% reduction in GPU costs
+Memory Reduction: 2.5-3.7x less memory usage. 
+
+Speed Impact: 5-15% slower during training. 
+
+Scale Enablement: 2-3x larger vocabularies possible.
+
+Cost Impact: 60-80% reduction in GPU costs.
 
 
 **Installation:** 
