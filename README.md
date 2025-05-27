@@ -85,5 +85,7 @@ Visualization errors: Install matplotlib: pip install matplotlib
 
 **License:**
 MIT License 
-Contributing
+
+**Contributing:**
+
 Contributions welcome! Please feel free to submit issues and pull requests.
