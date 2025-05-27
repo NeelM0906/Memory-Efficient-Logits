@@ -65,15 +65,8 @@ input_tensor = torch.randn(8192, 4096, device='cuda', requires_grad=True)
 weight_matrix = torch.randn(4096, 100000, device='cuda', requires_grad=True)
 target_labels = torch.randint(0, 100000, (8192,), device='cuda')
 
-# Memory-efficient approach
-loss = memory_efficient_cross_entropy(input_tensor, weight_matrix, target_labels, batch_size=1024)
-loss.backward()
-Output Files
-results/
-├── performance_analysis.png     # Performance dashboard
-├── summary_comparison.png       # Summary charts
-└── benchmark_results.json       # Raw data
-Troubleshooting
+
+**Troubleshooting:**
 
 CUDA Out of Memory: Reduce batch size or vocabulary size
 Slow performance: Normal for large vocabularies due to chunked processing
